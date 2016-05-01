@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Marko Satek']
   spec.email         = ['satekm@gmail.com']
 
-  spec.summary       = 'Ruby wrap for MITIE library. See https://github.com/mit-nlp/MITIE'
+  spec.summary       = 'MITIE library wrapped in Ruby with FFI. See https://github.com/mit-nlp/MITIE'
   spec.homepage      = 'http://github.com/satek/mitier'
   spec.license       = 'MIT'
 
