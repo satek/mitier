@@ -42,9 +42,12 @@ tokenizer.process
 
 ## Development
 
-Run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+To run the specs environment variable `TEST_MODEL_PATH` needs to be set and then run `bundle exec rspec`. Environment variables are loaded with Dotvim so you need to have `.env` file with that variable present. There is `.env.example` in the repo.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`.
+
 
 ## Contributing
 
